@@ -5,7 +5,7 @@ public abstract class Auto {
 	protected int año;
 	private Motor motor;
 	
-	//No me importa que motor pero necesito uno polimorfismo
+	//No me importa que motor pero necesito uno: polimorfismo
 	public Auto(Motor motor, String color, int año) {
 		this.motor = motor;
 		this.color = color;
