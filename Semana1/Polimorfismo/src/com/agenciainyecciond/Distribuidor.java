@@ -1,4 +1,4 @@
-package com.agencia.inyecciond;
+package com.agenciainyecciond;
 
 //Este actor propio de la Inyeccion de dependencias tiene un metodo que es el que asigna los motores, los crea 
 //y de acuerdo a la petición de agencia crea un motor y se lo asigna a un carro. 

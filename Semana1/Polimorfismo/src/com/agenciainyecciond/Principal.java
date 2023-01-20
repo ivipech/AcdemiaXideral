@@ -1,4 +1,4 @@
-package com.agencia.inyecciond;
+package com.agenciainyecciond;
 
 //Este ejemplo es el que describia el principio de polimorfismo en la POO con el uso de clases abstractas e interfaces
 // Este ejemplo también se puede ocupar para ejemplificar lo que es la inyección de dependencias.

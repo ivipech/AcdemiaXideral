@@ -1,4 +1,4 @@
-package com.agencia.inyecciond;
+package com.agenciainyecciond;
 
 public class MotorGasolina implements Motor {
 

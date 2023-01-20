@@ -1,4 +1,4 @@
-package com.agencia.inyecciond;
+package com.agenciainyecciond;
 
 public abstract class Auto {
 	protected String color;

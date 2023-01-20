@@ -1,4 +1,4 @@
-package com.agencia.inyecciond;
+package com.agenciainyecciond;
 
 public interface Motor {
 	void encender();
