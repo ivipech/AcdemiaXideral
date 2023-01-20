@@ -1,0 +1,16 @@
+package com.agencia.inyecciond;
+
+public class Mazda extends Auto {
+	
+	private static Motor motor;
+
+	public Mazda(String color, int año) {
+		super(color, año);
+	}
+
+	@Override
+	public void describirAuto() {
+ System.out.println("Este es un auto Mazda color " + this.color + " y del año " + this.año);
+	}
+ 
+}
