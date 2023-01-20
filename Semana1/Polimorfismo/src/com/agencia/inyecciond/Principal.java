@@ -1,5 +1,12 @@
 package com.agencia.inyecciond;
 
+//Este ejemplo es el que describia el principio de polimorfismo en la POO con el uso de clases abstractas e interfaces
+// Este ejemplo también se puede ocupar para ejemplificar lo que es la inyección de dependencias.
+//La inyección de dependencias es una tecnica en programacion en la que el objeto recibe sus dependencias o objetos o recursos
+// en lugar de crearlas él mismo.
+//En este ejemplo, anteriormente el motor se creaba a parte y se asignaba a un carro con ayuda de su constructor
+//En este ejemplo tenemos otro actor; que es el distribuidor de las agenciasÑ ahora es el encargado de inyectar las dependencias (motores) a los carros
+
 public class Principal {
 
 	public static void main(String[] args) {
