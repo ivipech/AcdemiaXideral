@@ -9,7 +9,6 @@ INDEX VERSION 1.131+C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.
 1284629419.index
 3870858790.index
 3786865694.index
-2290192147.index
 2229886263.index
 1132740132.index
 2708650680.index

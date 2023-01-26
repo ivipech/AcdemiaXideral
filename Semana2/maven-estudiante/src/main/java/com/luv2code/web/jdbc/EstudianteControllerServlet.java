@@ -122,7 +122,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		String theStudentId = request.getParameter("studentId");
 		
 		// get student from database (db util)
-		Estudiante theStudent = studentDbUtil.getStudent(theStudentId);
+		Estudiante theStudent = studentDbUtil.getEstudiante(theStudentId);
 		
 		// place student in the request attribute
 		request.setAttribute("THE_STUDENT", theStudent);

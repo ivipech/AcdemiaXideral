@@ -81,7 +81,7 @@ public class EstudianteDbUtil {
 		}
 	}
 
-	public void agregarEstudiante(Estudiante theStudent) throws Exception {
+	public void agregarEstudiante(Estudiante estudiante) throws Exception {
 
 		Connection myConn = null;
 		PreparedStatement myStmt = null;
@@ -98,9 +98,9 @@ public class EstudianteDbUtil {
 			myStmt = myConn.prepareStatement(sql);
 			
 			// set the param values for the student
-			myStmt.setString(1, theStudent.getNombre());
-			myStmt.setString(2, theStudent.getApellido());
-			myStmt.setString(3, theStudent.getCorreo());
+			myStmt.setString(1, estudiante.getNombre());
+			myStmt.setString(2, estudiante.getApellido());
+			myStmt.setString(3, estudiante.getCorreo());
 			
 			// execute sql insert
 			myStmt.execute();
@@ -111,7 +111,7 @@ public class EstudianteDbUtil {
 		}
 	}
 
-	public Estudiante getStudent(String theStudentId) throws Exception {
+	public Estudiante getEstudiante(String estudianteId) throws Exception {
 
 		Estudiante theStudent = null;
 		
@@ -122,7 +122,7 @@ public class EstudianteDbUtil {
 		
 		try {
 			// convert student id to int
-			studentId = Integer.parseInt(theStudentId);
+			studentId = Integer.parseInt(estudianteId);
 			
 			// get connection to database
 			myConn = dataSource.getConnection();
