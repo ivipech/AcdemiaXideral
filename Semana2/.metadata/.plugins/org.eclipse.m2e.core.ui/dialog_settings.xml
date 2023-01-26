@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\maven-web-student-tracker"/>
 			<item value="C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\Tomcat v9.0 Server at localhost-config"/>
 			<item value="C:\Users\Xideral\Documents\Desarrollo\maven-web-student-tracker"/>
 		</list>

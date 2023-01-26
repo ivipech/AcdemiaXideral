@@ -42,3 +42,7 @@
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:36:19 -0600] "GET /maven-estudiante/StudentControllerServlet?command=DELETE&studentId=12 HTTP/1.1" 200 1907
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:36:21 -0600] "GET /maven-estudiante/add-student-form.jsp HTTP/1.1" 200 1168
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:36:26 -0600] "GET /maven-estudiante/StudentControllerServlet?command=ADD&nombre=qwre&apellido=23&correo=asdf HTTP/1.1" 200 2460
+127.0.0.1 - - [26/Jan/2023:01:56:41 -0600] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:56:44 -0600] "GET /maven-estudiante/ HTTP/1.1" 200 2460
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:56:46 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=13 HTTP/1.1" 200 1384
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:56:51 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=13&nombre=qwre&apellido=qwe&correo=esdhs HTTP/1.1" 200 2462
