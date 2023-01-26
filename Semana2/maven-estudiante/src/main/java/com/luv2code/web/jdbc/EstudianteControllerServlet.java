@@ -102,10 +102,10 @@ public class EstudianteControllerServlet extends HttpServlet {
 		int id = Integer.parseInt(request.getParameter("studentId"));
 		String nombre = request.getParameter("nombre");
 		String apellido = request.getParameter("apellido");
-		String email = request.getParameter("email");
+		String correo = request.getParameter("correo");
 		
 		// create a new student object
-		Estudiante theStudent = new Estudiante(id, nombre, apellido, email);
+		Estudiante theStudent = new Estudiante(id, nombre, apellido, correo);
 		
 		// perform update on database
 		studentDbUtil.updateStudent(theStudent);
@@ -138,10 +138,10 @@ public class EstudianteControllerServlet extends HttpServlet {
 		// read student info from form data
 		String nombre = request.getParameter("nombre");
 		String apellido = request.getParameter("apellido");
-		String email = request.getParameter("email");		
+		String correo = request.getParameter("correo");		
 		
 		// create a new student object
-		Estudiante theStudent = new Estudiante(nombre, apellido, email);
+		Estudiante theStudent = new Estudiante(nombre, apellido, correo);
 		
 		// add the student to the database
 		studentDbUtil.addStudent(theStudent);

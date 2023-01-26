@@ -36,7 +36,7 @@
 
 					<tr>
 						<td><label>Correo:</label></td>
-						<td><input type="text" name="email" /></td>
+						<td><input type="text" name="correo" /></td>
 					</tr>
 					
 					<tr>

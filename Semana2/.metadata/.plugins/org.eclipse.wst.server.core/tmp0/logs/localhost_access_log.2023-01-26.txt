@@ -4,3 +4,12 @@
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:09:33 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=8&nombre=Erikach&lastName=Pech&email=yomera%40hotmail.com HTTP/1.1" 200 3444
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:09:35 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=8 HTTP/1.1" 200 1319
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:09:41 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=8&nombre=Erika&lastName=Pech&email=yomera%40hotmail.com HTTP/1.1" 200 3449
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:29:48 -0600] "GET /maven-estudiante/add-student-form.jsp HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:30:14 -0600] "GET /maven-estudiante/StudentControllerServlet?command=ADD&nombre=Janita&apellido=CostaBrava&email=spy%40kids.com HTTP/1.1" 200 3987
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:32:56 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=9 HTTP/1.1" 200 1315
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:33:01 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=9&nombre=Janita&apellido=Costabrava&email=spy%40kids.com HTTP/1.1" 200 3997
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:33:09 -0600] "GET /maven-estudiante/add-student-form.jsp HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:33:25 -0600] "GET /maven-estudiante/StudentControllerServlet?command=ADD&nombre=Marisol&apellido=Solar&email=luz%40dar.com HTTP/1.1" 200 4542
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:41:16 -0600] "GET /maven-estudiante/StudentControllerServlet?command=DELETE&studentId=4 HTTP/1.1" 200 3996
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:41:19 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=10 HTTP/1.1" 200 1322
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:41:24 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=10&nombre=Marisol&apellido=Solar&correo=luz%40dark.com HTTP/1.1" 200 3997

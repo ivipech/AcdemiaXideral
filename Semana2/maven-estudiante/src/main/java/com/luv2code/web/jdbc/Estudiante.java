@@ -5,19 +5,19 @@ public class Estudiante {
 	private int id;
 	private String nombre;
 	private String apellido;
-	private String email;
+	private String correo;
 
-	public Estudiante(String nombre, String apellido, String email) {
+	public Estudiante(String nombre, String apellido, String correo) {
 		this.nombre = nombre;
 		this.apellido = apellido;
-		this.email = email;
+		this.correo = correo;
 	}
 
-	public Estudiante(int id, String nombre, String apellido, String email) {
+	public Estudiante(int id, String nombre, String apellido, String correo) {
 		this.id = id;
 		this.nombre = nombre;
 		this.apellido = apellido;
-		this.email = email;
+		this.correo = correo;
 	}
 
 	public int getId() {
@@ -44,16 +44,16 @@ public class Estudiante {
 		this.apellido = apellido;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getCorreo() {
+		return correo;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setCorreo(String correo) {
+		this.correo = correo;
 	}
 
 	@Override
 	public String toString() {
-		return "Estudiante [id=" + id + ", Nombre=" + nombre + ", Apellido=" + apellido + ", email=" + email + "]";
+		return "Estudiante [id=" + id + ", Nombre=" + nombre + ", Apellido=" + apellido + ", Correo=" + correo + "]";
 	}	
 }

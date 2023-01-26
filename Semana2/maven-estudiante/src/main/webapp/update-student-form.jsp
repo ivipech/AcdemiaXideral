@@ -40,8 +40,8 @@
 
 					<tr>
 						<td><label>Correo:</label></td>
-						<td><input type="text" name="email" 
-								   value="${THE_STUDENT.email}" /></td>
+						<td><input type="text" name="correo" 
+								   value="${THE_STUDENT.correo}" /></td>
 					</tr>
 					
 					<tr>

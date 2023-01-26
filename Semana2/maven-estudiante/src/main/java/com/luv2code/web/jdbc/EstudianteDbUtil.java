@@ -44,10 +44,10 @@ public class EstudianteDbUtil {
 				int id = myRs.getInt("id");
 				String nombre = myRs.getString("nombre");
 				String apellido = myRs.getString("apellido");
-				String email = myRs.getString("correo");
+				String correo = myRs.getString("correo");
 				
 				// create new student object
-				Estudiante tempStudent = new Estudiante(id, nombre, apellido, email);
+				Estudiante tempStudent = new Estudiante(id, nombre, apellido, correo);
 				
 				// add it to the list of students
 				students.add(tempStudent);				
@@ -100,7 +100,7 @@ public class EstudianteDbUtil {
 			// set the param values for the student
 			myStmt.setString(1, theStudent.getNombre());
 			myStmt.setString(2, theStudent.getApellido());
-			myStmt.setString(3, theStudent.getEmail());
+			myStmt.setString(3, theStudent.getCorreo());
 			
 			// execute sql insert
 			myStmt.execute();
@@ -143,10 +143,10 @@ public class EstudianteDbUtil {
 			if (myRs.next()) {
 				String nombre = myRs.getString("nombre");
 				String apellido = myRs.getString("apellido");
-				String email = myRs.getString("correo");
+				String correo = myRs.getString("correo");
 				
 				// use the studentId during construction
-				theStudent = new Estudiante(studentId, nombre, apellido, email);
+				theStudent = new Estudiante(studentId, nombre, apellido, correo);
 			}
 			else {
 				throw new Exception("Could not find student id: " + studentId);
@@ -180,7 +180,7 @@ public class EstudianteDbUtil {
 			// set params
 			myStmt.setString(1, theStudent.getNombre());
 			myStmt.setString(2, theStudent.getApellido());
-			myStmt.setString(3, theStudent.getEmail());
+			myStmt.setString(3, theStudent.getCorreo());
 			myStmt.setInt(4, theStudent.getId());
 			
 			// execute SQL statement
