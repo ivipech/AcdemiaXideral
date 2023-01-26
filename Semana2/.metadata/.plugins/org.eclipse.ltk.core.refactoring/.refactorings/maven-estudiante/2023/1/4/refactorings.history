@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;maven-estudiante/src/main/java/com/luv2code/web/jdbc/Student.java&apos; to &apos;Estudiante.java&apos;" description="Rename resource &apos;Student.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/luv2code/web/jdbc/Student.java" name="Estudiante.java" stamp="1674712053998" updateReferences="true"/>
+</session>

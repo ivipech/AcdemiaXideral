@@ -17,9 +17,9 @@ public class StudentDbUtil {
 		dataSource = theDataSource;
 	}
 	
-	public List<Student> getStudents() throws Exception {
+	public List<Estudiante> getStudents() throws Exception {
 		
-		List<Student> students = new ArrayList<>();
+		List<Estudiante> students = new ArrayList<>();
 		
 		Connection myConn = null;
 		Statement myStmt = null;
@@ -47,7 +47,7 @@ public class StudentDbUtil {
 				String email = myRs.getString("correo");
 				
 				// create new student object
-				Student tempStudent = new Student(id, firstName, lastName, email);
+				Estudiante tempStudent = new Estudiante(id, firstName, lastName, email);
 				
 				// add it to the list of students
 				students.add(tempStudent);				
@@ -81,7 +81,7 @@ public class StudentDbUtil {
 		}
 	}
 
-	public void addStudent(Student theStudent) throws Exception {
+	public void addStudent(Estudiante theStudent) throws Exception {
 
 		Connection myConn = null;
 		PreparedStatement myStmt = null;
@@ -111,9 +111,9 @@ public class StudentDbUtil {
 		}
 	}
 
-	public Student getStudent(String theStudentId) throws Exception {
+	public Estudiante getStudent(String theStudentId) throws Exception {
 
-		Student theStudent = null;
+		Estudiante theStudent = null;
 		
 		Connection myConn = null;
 		PreparedStatement myStmt = null;
@@ -146,7 +146,7 @@ public class StudentDbUtil {
 				String email = myRs.getString("correo");
 				
 				// use the studentId during construction
-				theStudent = new Student(studentId, firstName, lastName, email);
+				theStudent = new Estudiante(studentId, firstName, lastName, email);
 			}
 			else {
 				throw new Exception("Could not find student id: " + studentId);
@@ -160,7 +160,7 @@ public class StudentDbUtil {
 		}
 	}
 
-	public void updateStudent(Student theStudent) throws Exception {
+	public void updateStudent(Estudiante theStudent) throws Exception {
 		
 		Connection myConn = null;
 		PreparedStatement myStmt = null;

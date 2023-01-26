@@ -105,7 +105,7 @@ public class StudentControllerServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		
 		// create a new student object
-		Student theStudent = new Student(id, firstName, lastName, email);
+		Estudiante theStudent = new Estudiante(id, firstName, lastName, email);
 		
 		// perform update on database
 		studentDbUtil.updateStudent(theStudent);
@@ -122,7 +122,7 @@ public class StudentControllerServlet extends HttpServlet {
 		String theStudentId = request.getParameter("studentId");
 		
 		// get student from database (db util)
-		Student theStudent = studentDbUtil.getStudent(theStudentId);
+		Estudiante theStudent = studentDbUtil.getStudent(theStudentId);
 		
 		// place student in the request attribute
 		request.setAttribute("THE_STUDENT", theStudent);
@@ -141,7 +141,7 @@ public class StudentControllerServlet extends HttpServlet {
 		String email = request.getParameter("email");		
 		
 		// create a new student object
-		Student theStudent = new Student(firstName, lastName, email);
+		Estudiante theStudent = new Estudiante(firstName, lastName, email);
 		
 		// add the student to the database
 		studentDbUtil.addStudent(theStudent);
@@ -154,7 +154,7 @@ public class StudentControllerServlet extends HttpServlet {
 		throws Exception {
 
 		// get students from db util
-		List<Student> students = studentDbUtil.getStudents();
+		List<Estudiante> students = studentDbUtil.getStudents();
 		
 		// add students to the request
 		request.setAttribute("STUDENT_LIST", students);
