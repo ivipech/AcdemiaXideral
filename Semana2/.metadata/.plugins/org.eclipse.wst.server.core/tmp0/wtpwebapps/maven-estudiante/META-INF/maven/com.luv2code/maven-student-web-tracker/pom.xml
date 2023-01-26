@@ -39,7 +39,7 @@
 
   <build>
 
-    <finalName>maven-student-web-tracker</finalName>
+    <finalName>maven-estudiante</finalName>
 
     <plugins>
 

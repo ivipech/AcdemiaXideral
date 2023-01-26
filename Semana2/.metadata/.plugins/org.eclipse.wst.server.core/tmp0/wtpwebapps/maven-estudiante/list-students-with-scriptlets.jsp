@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>Student Tracker App</title>
+	<title>Estudiantes App</title>
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>

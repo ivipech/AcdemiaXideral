@@ -22,26 +22,26 @@
 		
 			<input type="hidden" name="command" value="UPDATE" />
 
-			<input type="hidden" name="studentId" value="${THE_STUDENT.id}" />
+			<input type="hidden" name="studentId" value="${EL_ESTUDIANTE.id}" />
 			
 			<table>
 				<tbody>
 					<tr>
 						<td><label>Nombre:</label></td>
 						<td><input type="text" name="nombre" 
-								   value="${THE_STUDENT.nombre}" /></td>
+								   value="${EL_ESTUDIANTE.nombre}" /></td>
 					</tr>
 
 					<tr>
 						<td><label>Apellido:</label></td>
 						<td><input type="text" name="apellido" 
-								   value="${THE_STUDENT.apellido}" /></td>
+								   value="${EL_ESTUDIANTE.apellido}" /></td>
 					</tr>
 
 					<tr>
 						<td><label>Correo:</label></td>
 						<td><input type="text" name="correo" 
-								   value="${THE_STUDENT.correo}" /></td>
+								   value="${EL_ESTUDIANTE.correo}" /></td>
 					</tr>
 					
 					<tr>

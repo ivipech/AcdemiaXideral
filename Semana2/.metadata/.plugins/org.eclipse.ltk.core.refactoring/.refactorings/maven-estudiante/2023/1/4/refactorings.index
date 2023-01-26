@@ -10,3 +10,8 @@
 1674718500807	Rename method 'getStudents'
 1674762736948	Rename local variable 'students'
 1674762849128	Rename local variable 'tempStudent'
+1674763297229	Rename local variable 'theStudentId'
+1674763398269	Rename local variable 'theStudent'
+1674767940119	Rename local variable 'theStudent'
+1674768978247	Rename method 'subirEstudiante'
+1674769795124	Rename local variable 'students'

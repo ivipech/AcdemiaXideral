@@ -60,7 +60,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 				break;
 				
 			case "LOAD":
-				subirEstudiante(request, response);
+				cargarEstudiante(request, response);
 				break;
 				
 			case "UPDATE":
@@ -86,10 +86,10 @@ public class EstudianteControllerServlet extends HttpServlet {
 		throws Exception {
 
 		// read student id from form data
-		String theStudentId = request.getParameter("studentId");
+		String elEstudiante = request.getParameter("studentId");
 		
 		// delete student from database
-		studentDbUtil.borrarEstudiante(theStudentId);
+		studentDbUtil.borrarEstudiante(elEstudiante);
 		
 		// send them back to "list students" page
 		listaEstudiantes(request, response);
@@ -105,27 +105,27 @@ public class EstudianteControllerServlet extends HttpServlet {
 		String correo = request.getParameter("correo");
 		
 		// create a new student object
-		Estudiante theStudent = new Estudiante(id, nombre, apellido, correo);
+		Estudiante elEstudiante = new Estudiante(id, nombre, apellido, correo);
 		
 		// perform update on database
-		studentDbUtil.actualizarEstudiante(theStudent);
+		studentDbUtil.actualizarEstudiante(elEstudiante);
 		
 		// send them back to the "list students" page
 		listaEstudiantes(request, response);
 		
 	}
 
-	private void subirEstudiante(HttpServletRequest request, HttpServletResponse response) 
+	private void cargarEstudiante(HttpServletRequest request, HttpServletResponse response) 
 		throws Exception {
 
 		// read student id from form data
-		String theStudentId = request.getParameter("studentId");
+		String estudianteId = request.getParameter("studentId");
 		
 		// get student from database (db util)
-		Estudiante theStudent = studentDbUtil.getEstudiante(theStudentId);
+		Estudiante elEstudiante = studentDbUtil.getEstudiante(estudianteId);
 		
 		// place student in the request attribute
-		request.setAttribute("THE_STUDENT", theStudent);
+		request.setAttribute("EL_ESTUDIANTE", elEstudiante);
 		
 		// send to jsp page: update-student-form.jsp
 		RequestDispatcher dispatcher = 
@@ -154,10 +154,10 @@ public class EstudianteControllerServlet extends HttpServlet {
 		throws Exception {
 
 		// get students from db util
-		List<Estudiante> students = studentDbUtil.getStudents();
+		List<Estudiante> estudiantes = studentDbUtil.getStudents();
 		
 		// add students to the request
-		request.setAttribute("STUDENT_LIST", students);
+		request.setAttribute("ESTUDIANTES_LISTA", estudiantes);
 				
 		// send to JSP page (view)
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/list-students.jsp");
