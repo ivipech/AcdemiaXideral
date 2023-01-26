@@ -30,3 +30,7 @@
 0:0:0:0:0:0:0:1 - - [25/Jan/2023:23:14:48 -0600] "GET /maven-estudiante/StudentControllerServlet?command=DELETE&studentId=5 HTTP/1.1" 200 2872
 0:0:0:0:0:0:0:1 - - [25/Jan/2023:23:16:22 -0600] "GET /maven-estudiante/TestServlet HTTP/1.1" 200 76
 0:0:0:0:0:0:0:1 - - [25/Jan/2023:23:17:32 -0600] "GET /maven-estudiante/TestServlet HTTP/1.1" 200 76
+127.0.0.1 - - [25/Jan/2023:23:18:34 -0600] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:23:18:35 -0600] "GET /maven-estudiante/TestServlet HTTP/1.1" 200 94
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:23:19:43 -0600] "GET /maven-estudiante/TestServlet HTTP/1.1" 200 108
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:23:24:23 -0600] "GET /maven-estudiante/StudentControllerServlet?command=DELETE&studentId=5 HTTP/1.1" 200 3958
