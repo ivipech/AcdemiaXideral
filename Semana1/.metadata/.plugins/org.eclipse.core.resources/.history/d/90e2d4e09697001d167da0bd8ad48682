@@ -1,0 +1,5 @@
+package com.agencia;
+
+public abstract class Auto {
+
+}

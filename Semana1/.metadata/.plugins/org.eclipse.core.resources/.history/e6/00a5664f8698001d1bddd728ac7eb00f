@@ -1,0 +1,14 @@
+package com.practicas;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int a = 2, b=4, c=2;
+		
+		System.out.println(a>2? --c: b++);
+		System.out.println(a!=c? a: b++);
+
+	}
+
+}
+ 

@@ -1,0 +1,20 @@
+package com.singleton;
+
+public class Almacen {
+	
+	private static Almacen bitacora;
+	
+	
+	private Almacen() {}
+	
+	public static Almacen getBitacora() {
+		if (bitacora == null) {
+			bitacora = new Almacen();
+		}
+		return bitacora;
+	}
+	
+	public void imprimirMovimiento(String movimiento) {
+		System.out.println(movimiento);
+	}
+}

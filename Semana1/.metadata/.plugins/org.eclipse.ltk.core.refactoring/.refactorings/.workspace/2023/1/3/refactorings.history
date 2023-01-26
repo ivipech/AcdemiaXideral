@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;com.Polimorfismo&apos;" deleteContents="false" description="Delete resource &apos;com.Polimorfismo&apos;" element1="/com.Polimorfismo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1674056085039"/>&#x0A;<refactoring comment="Delete resource &apos;Singleton&apos;" deleteContents="false" description="Delete resource &apos;Singleton&apos;" element1="/Singleton" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1674083125515"/>
+</session>

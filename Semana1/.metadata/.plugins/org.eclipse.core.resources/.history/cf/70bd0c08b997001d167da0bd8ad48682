@@ -1,0 +1,11 @@
+package com.agencia;
+
+public class Nissan extends Auto {
+
+	@Override
+	public void describirAuto() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

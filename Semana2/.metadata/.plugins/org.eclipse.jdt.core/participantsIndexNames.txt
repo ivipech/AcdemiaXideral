@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2954466984.index
+\maven-estudiante\src\main\java
+C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2594809512.index
+\maven-web-student-tracker\src\main\java
+C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3228778625.index
+\maven-student-web-tracker\src\main\java

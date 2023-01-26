@@ -1,0 +1,16 @@
+package com.escuela;
+
+import java.util.ArrayList;
+
+public class Profesor extends Personal {
+	
+	private ArrayList<String> materias;
+	private ArrayList<String> grupos;
+
+	public Profesor(String nombre, int edad, double salario, ArrayList<String> materias, ArrayList<String> grupos) {
+		super(nombre, edad, salario);
+		this.materias = materias;
+		this.grupos = grupos;
+	}
+
+}

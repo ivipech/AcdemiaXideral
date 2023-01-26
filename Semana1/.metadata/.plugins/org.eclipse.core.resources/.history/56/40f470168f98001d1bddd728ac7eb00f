@@ -1,0 +1,18 @@
+package com.practicas;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int temp = 4;
+		
+		long hum = -temp + temp*3;
+		
+		if(temp>=4)
+			if(hum < 6) System.out.println("Too low");
+			else System.out.println("Just Right");
+		else System.out.println("Too high");
+
+	}
+
+}
+ 

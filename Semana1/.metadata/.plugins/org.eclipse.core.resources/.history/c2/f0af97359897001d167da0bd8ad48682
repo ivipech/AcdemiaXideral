@@ -1,0 +1,9 @@
+package com.agencia;
+
+public class Mazda extends Auto {
+	
+	public Mazda(Motor motor) {
+		super(motor);
+	}
+
+}

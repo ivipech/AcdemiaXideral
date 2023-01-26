@@ -1,0 +1,17 @@
+package com.escuela;
+
+public abstract class UsuarioEscolar {
+	
+	private String nombre;
+	private int edad;
+	
+	public UsuarioEscolar(String nombre, int edad) {
+		this.nombre = nombre;
+		this.edad = edad;
+	}
+	
+	@Override
+	public String toString() {
+		return this.getClass().getSimpleName();
+		}
+}

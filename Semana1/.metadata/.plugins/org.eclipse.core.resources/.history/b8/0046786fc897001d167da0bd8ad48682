@@ -1,0 +1,12 @@
+package com.singleton;
+
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		Inventario bi = Inventario.getBitacora();
+		
+		bi.imprimirMovimiento("Hola");
+	}
+
+}
