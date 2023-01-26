@@ -68,7 +68,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 				break;
 			
 			case "DELETE":
-				deleteStudent(request, response);
+				borrarEstudiante(request, response);
 				break;
 				
 			default:
@@ -82,14 +82,14 @@ public class EstudianteControllerServlet extends HttpServlet {
 		
 	}
 
-	private void deleteStudent(HttpServletRequest request, HttpServletResponse response)
+	private void borrarEstudiante(HttpServletRequest request, HttpServletResponse response)
 		throws Exception {
 
 		// read student id from form data
 		String theStudentId = request.getParameter("studentId");
 		
 		// delete student from database
-		studentDbUtil.deleteStudent(theStudentId);
+		studentDbUtil.borrarEstudiante(theStudentId);
 		
 		// send them back to "list students" page
 		listStudents(request, response);

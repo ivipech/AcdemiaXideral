@@ -192,7 +192,7 @@ public class EstudianteDbUtil {
 		}
 	}
 
-	public void deleteStudent(String theStudentId) throws Exception {
+	public void borrarEstudiante(String theStudentId) throws Exception {
 
 		Connection myConn = null;
 		PreparedStatement myStmt = null;
