@@ -3,22 +3,22 @@
 <html>
 
 <head>
-	<title>Student Tracker App</title>
+	<title>Estudiantes App</title>
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 
 <%
 	// get the students from the request object (sent by servlet)
-	List<Student> theStudents = 
-					(List<Student>) request.getAttribute("STUDENT_LIST");
+	List<Estudiante> theStudents = 
+					(List<Estudiante>) request.getAttribute("STUDENT_LIST");
 %>
 
 <body>
 
 	<div id="wrapper">
 		<div id="header">
-			<h2>FooBar University</h2>
+			<h2>Universidad Java</h2>
 		</div>
 	</div>
 
@@ -29,17 +29,17 @@
 			<table>
 			
 				<tr>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Email</th>
+					<th>Nombre Propio</th>
+					<th>Apellido</th>
+					<th>Correo</th>
 				</tr>
 				
-				<% for (Student tempStudent : theStudents) { %>
+				<% for (Estudiante estudianteTemp : theStudents) { %>
 				
 					<tr>
-						<td> <%= tempStudent.getFirstName() %> </td>
-						<td> <%= tempStudent.getLastName() %> </td>
-						<td> <%= tempStudent.getEmail() %> </td>
+						<td> <%= estudianteTemp.getNombre() %> </td>
+						<td> <%= estudianteTemp.getApellido() %> </td>
+						<td> <%= estudianteTemp.getCorreo() %> </td>
 					</tr>
 				
 				<% } %>

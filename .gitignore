@@ -1,3 +1,9 @@
+# agrega la carpeta .metadata en todos los directorios
+**/.metadata/
+
+Semana2/.metadata/.plugins/org.eclipse.e4.workbench/**
+Semana2/.metadata/.plugins/org.eclipse.m2e.logback/**
+
 .metadata
 bin/
 tmp/
@@ -63,5 +69,3 @@ Servers/
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
-
-*/WEB-INF/lib
