@@ -30,7 +30,7 @@ public class StudentDbUtil {
 			myConn = dataSource.getConnection();
 			
 			// create sql statement
-			String sql = "select * from student order by last_name";
+			String sql = "select * from estudiante order by apellido";
 			
 			myStmt = myConn.createStatement();
 			
@@ -42,9 +42,9 @@ public class StudentDbUtil {
 				
 				// retrieve data from result set row
 				int id = myRs.getInt("id");
-				String firstName = myRs.getString("first_name");
-				String lastName = myRs.getString("last_name");
-				String email = myRs.getString("email");
+				String firstName = myRs.getString("nombre");
+				String lastName = myRs.getString("apellido");
+				String email = myRs.getString("correo");
 				
 				// create new student object
 				Student tempStudent = new Student(id, firstName, lastName, email);

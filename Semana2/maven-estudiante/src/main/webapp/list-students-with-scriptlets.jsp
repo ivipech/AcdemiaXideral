@@ -18,7 +18,7 @@
 
 	<div id="wrapper">
 		<div id="header">
-			<h2>FooBar University</h2>
+			<h2>Universidad Java</h2>
 		</div>
 	</div>
 
@@ -29,9 +29,9 @@
 			<table>
 			
 				<tr>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Email</th>
+					<th>Nombre Propio</th>
+					<th>Apellido</th>
+					<th>Correo</th>
 				</tr>
 				
 				<% for (Student tempStudent : theStudents) { %>
