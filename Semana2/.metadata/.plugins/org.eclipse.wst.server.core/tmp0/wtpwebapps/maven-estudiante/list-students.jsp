@@ -4,7 +4,7 @@
 <html>
 
 <head>
-	<title>Student Tracker App</title>
+	<title>Seguimiento Estudiantes App</title>
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
@@ -23,7 +23,7 @@
 		
 			<!-- put new button: Add Student -->
 			
-			<input type="button" value="Agregar Estudiante" 
+			<input type="button" value="Añadir Estudiante" 
 				   onclick="window.location.href='add-student-form.jsp'; return false;"
 				   class="add-student-button"
 			/>
@@ -59,7 +59,7 @@
 							<a href="${tempLink}">Editar</a> 
 							 | 
 							<a href="${deleteLink}"
-							onclick="if (!(confirm('Are you sure you want to delete this student?'))) return false">
+							onclick="if (!(confirm('¿Está seguro que desea eliminar este estudiante?'))) return false">
 							Eliminar</a>	
 						</td>
 					</tr>
