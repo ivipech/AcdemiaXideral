@@ -8,3 +8,5 @@
 1674718232526	Rename method 'getStudents'
 1674718436896	Rename method 'getStudents'
 1674718500807	Rename method 'getStudents'
+1674762736948	Rename local variable 'students'
+1674762849128	Rename local variable 'tempStudent'

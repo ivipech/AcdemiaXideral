@@ -34,12 +34,12 @@
 					<th>Correo</th>
 				</tr>
 				
-				<% for (Estudiante tempStudent : theStudents) { %>
+				<% for (Estudiante estudianteTemp : theStudents) { %>
 				
 					<tr>
-						<td> <%= tempStudent.getNombre() %> </td>
-						<td> <%= tempStudent.getApellido() %> </td>
-						<td> <%= tempStudent.getCorreo() %> </td>
+						<td> <%= estudianteTemp.getNombre() %> </td>
+						<td> <%= estudianteTemp.getApellido() %> </td>
+						<td> <%= estudianteTemp.getCorreo() %> </td>
 					</tr>
 				
 				<% } %>

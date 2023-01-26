@@ -46,3 +46,9 @@
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:56:44 -0600] "GET /maven-estudiante/ HTTP/1.1" 200 2460
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:56:46 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=13 HTTP/1.1" 200 1384
 0:0:0:0:0:0:0:1 - - [26/Jan/2023:01:56:51 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=13&nombre=qwre&apellido=qwe&correo=esdhs HTTP/1.1" 200 2462
+127.0.0.1 - - [26/Jan/2023:13:52:30 -0600] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:13:52:31 -0600] "GET /maven-estudiante/ HTTP/1.1" 200 2726
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:13:52:31 -0600] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:13:52:36 -0600] "GET /maven-estudiante/StudentControllerServlet;jsessionid=71C3EB1E60AB73AB88F4D6647683362D?command=DELETE&studentId=13 HTTP/1.1" 200 1907
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:13:52:41 -0600] "GET /maven-estudiante/add-student-form.jsp HTTP/1.1" 200 1238
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:13:53:15 -0600] "GET /maven-estudiante/StudentControllerServlet?command=ADD&nombre=Brisa&apellido=Tab&correo=brisilla%40doggies.com HTTP/1.1" 200 2478

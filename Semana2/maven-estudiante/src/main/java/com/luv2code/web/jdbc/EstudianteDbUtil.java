@@ -19,7 +19,7 @@ public class EstudianteDbUtil {
 	
 	public List<Estudiante> getStudents() throws Exception {
 		
-		List<Estudiante> students = new ArrayList<>();
+		List<Estudiante> estudiantes = new ArrayList<>();
 		
 		Connection myConn = null;
 		Statement myStmt = null;
@@ -47,13 +47,13 @@ public class EstudianteDbUtil {
 				String correo = myRs.getString("correo");
 				
 				// create new student object
-				Estudiante tempStudent = new Estudiante(id, nombre, apellido, correo);
+				Estudiante estudianteTemp = new Estudiante(id, nombre, apellido, correo);
 				
 				// add it to the list of students
-				students.add(tempStudent);				
+				estudiantes.add(estudianteTemp);				
 			}
 			
-			return students;		
+			return estudiantes;		
 		}
 		finally {
 			// close JDBC objects

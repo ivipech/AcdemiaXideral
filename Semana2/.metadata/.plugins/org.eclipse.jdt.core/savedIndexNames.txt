@@ -1,27 +1,9 @@
 INDEX VERSION 1.131+C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.metadata\.plugins\org.eclipse.jdt.core
-453955381.index
 3969719975.index
 3818232038.index
-626612610.index
-460187341.index
-2513093821.index
-923941691.index
-2904636744.index
-398925468.index
-3528238001.index
-223881628.index
-1039306593.index
-2386850106.index
-356327.index
-1630579643.index
 3165227307.index
-3200703938.index
 3712606879.index
 2290192147.index
 1418756865.index
-4184561138.index
-1551969265.index
 1865797976.index
-468107086.index
 4052634300.index
-2574794399.index
