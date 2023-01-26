@@ -10,8 +10,8 @@
 
 <%
 	// get the students from the request object (sent by servlet)
-	List<Student> theStudents = 
-					(List<Student>) request.getAttribute("STUDENT_LIST");
+	List<Estudiante> theStudents = 
+					(List<Estudiante>) request.getAttribute("STUDENT_LIST");
 %>
 
 <body>
@@ -34,10 +34,10 @@
 					<th>Correo</th>
 				</tr>
 				
-				<% for (Student tempStudent : theStudents) { %>
+				<% for (Estudiante tempStudent : theStudents) { %>
 				
 					<tr>
-						<td> <%= tempStudent.getFirstName() %> </td>
+						<td> <%= tempStudent.getNombre() %> </td>
 						<td> <%= tempStudent.getLastName() %> </td>
 						<td> <%= tempStudent.getEmail() %> </td>
 					</tr>

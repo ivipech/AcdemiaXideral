@@ -28,8 +28,8 @@
 				<tbody>
 					<tr>
 						<td><label>Nombre:</label></td>
-						<td><input type="text" name="firstName" 
-								   value="${THE_STUDENT.firstName}" /></td>
+						<td><input type="text" name="nombre" 
+								   value="${THE_STUDENT.nombre}" /></td>
 					</tr>
 
 					<tr>

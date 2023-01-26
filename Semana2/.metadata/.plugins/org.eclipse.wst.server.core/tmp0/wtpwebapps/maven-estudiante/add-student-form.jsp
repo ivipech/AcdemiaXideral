@@ -26,7 +26,7 @@
 				<tbody>
 					<tr>
 						<td><label>Nombre:</label></td>
-						<td><input type="text" name="firstName" /></td>
+						<td><input type="text" name="nombre" /></td>
 					</tr>
 
 					<tr>
