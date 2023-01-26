@@ -81,7 +81,7 @@ public class EstudianteDbUtil {
 		}
 	}
 
-	public void agregarEstudiante(Estudiante theStudent) throws Exception {
+	public void addStudent(Estudiante theStudent) throws Exception {
 
 		Connection myConn = null;
 		PreparedStatement myStmt = null;

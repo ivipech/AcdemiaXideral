@@ -52,15 +52,15 @@ public class EstudianteControllerServlet extends HttpServlet {
 			switch (theCommand) {
 			
 			case "LIST":
-				listaEstudiantes(request, response);
+				listStudents(request, response);
 				break;
 				
 			case "ADD":
-				agregarEstudiante(request, response);
+				addStudent(request, response);
 				break;
 				
 			case "LOAD":
-				subirEstudiante(request, response);
+				loadStudent(request, response);
 				break;
 				
 			case "UPDATE":
@@ -72,7 +72,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 				break;
 				
 			default:
-				listaEstudiantes(request, response);
+				listStudents(request, response);
 			}
 				
 		}
@@ -92,7 +92,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		studentDbUtil.borrarEstudiante(theStudentId);
 		
 		// send them back to "list students" page
-		listaEstudiantes(request, response);
+		listStudents(request, response);
 	}
 
 	private void actualizarEstudiante(HttpServletRequest request, HttpServletResponse response)
@@ -111,7 +111,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		studentDbUtil.actualizarEstudiante(theStudent);
 		
 		// send them back to the "list students" page
-		listaEstudiantes(request, response);
+		listStudents(request, response);
 		
 	}
 
@@ -133,7 +133,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		dispatcher.forward(request, response);		
 	}
 
-	private void agregarEstudiante(HttpServletRequest request, HttpServletResponse response) throws Exception {
+	private void addStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
 		// read student info from form data
 		String nombre = request.getParameter("nombre");
@@ -144,13 +144,13 @@ public class EstudianteControllerServlet extends HttpServlet {
 		Estudiante theStudent = new Estudiante(nombre, apellido, correo);
 		
 		// add the student to the database
-		studentDbUtil.agregarEstudiante(theStudent);
+		studentDbUtil.addStudent(theStudent);
 				
 		// send back to main page (the student list)
-		listaEstudiantes(request, response);
+		listStudents(request, response);
 	}
 
-	private void listaEstudiantes(HttpServletRequest request, HttpServletResponse response) 
+	private void listStudents(HttpServletRequest request, HttpServletResponse response) 
 		throws Exception {
 
 		// get students from db util

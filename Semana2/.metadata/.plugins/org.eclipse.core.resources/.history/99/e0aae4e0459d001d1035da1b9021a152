@@ -81,7 +81,7 @@ public class EstudianteDbUtil {
 		}
 	}
 
-	public void agregarEstudiante(Estudiante theStudent) throws Exception {
+	public void addStudent(Estudiante theStudent) throws Exception {
 
 		Connection myConn = null;
 		PreparedStatement myStmt = null;
@@ -160,7 +160,7 @@ public class EstudianteDbUtil {
 		}
 	}
 
-	public void actualizarEstudiante(Estudiante theStudent) throws Exception {
+	public void updateStudent(Estudiante theStudent) throws Exception {
 		
 		Connection myConn = null;
 		PreparedStatement myStmt = null;

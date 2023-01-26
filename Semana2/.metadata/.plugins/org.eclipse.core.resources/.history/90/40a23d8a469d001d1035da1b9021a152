@@ -52,7 +52,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 			switch (theCommand) {
 			
 			case "LIST":
-				listaEstudiantes(request, response);
+				listStudents(request, response);
 				break;
 				
 			case "ADD":
@@ -72,7 +72,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 				break;
 				
 			default:
-				listaEstudiantes(request, response);
+				listStudents(request, response);
 			}
 				
 		}
@@ -92,7 +92,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		studentDbUtil.borrarEstudiante(theStudentId);
 		
 		// send them back to "list students" page
-		listaEstudiantes(request, response);
+		listStudents(request, response);
 	}
 
 	private void actualizarEstudiante(HttpServletRequest request, HttpServletResponse response)
@@ -111,7 +111,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		studentDbUtil.actualizarEstudiante(theStudent);
 		
 		// send them back to the "list students" page
-		listaEstudiantes(request, response);
+		listStudents(request, response);
 		
 	}
 
@@ -147,7 +147,7 @@ public class EstudianteControllerServlet extends HttpServlet {
 		studentDbUtil.agregarEstudiante(theStudent);
 				
 		// send back to main page (the student list)
-		listaEstudiantes(request, response);
+		listStudents(request, response);
 	}
 
 	private void listaEstudiantes(HttpServletRequest request, HttpServletResponse response) 
