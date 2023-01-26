@@ -38,7 +38,7 @@
 				
 					<tr>
 						<td> <%= tempStudent.getNombre() %> </td>
-						<td> <%= tempStudent.getLastName() %> </td>
+						<td> <%= tempStudent.getApellido() %> </td>
 						<td> <%= tempStudent.getEmail() %> </td>
 					</tr>
 				

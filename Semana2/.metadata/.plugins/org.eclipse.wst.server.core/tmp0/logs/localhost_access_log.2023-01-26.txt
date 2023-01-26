@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:02:22 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=8 HTTP/1.1" 500 4846
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:06:07 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=8 HTTP/1.1" 200 1324
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:06:15 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=8&nombre=Erikach&lastName=Pech&email=yomera%40hotmail.com HTTP/1.1" 200 3444
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:09:33 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=8&nombre=Erikach&lastName=Pech&email=yomera%40hotmail.com HTTP/1.1" 200 3444
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:09:35 -0600] "GET /maven-estudiante/StudentControllerServlet?command=LOAD&studentId=8 HTTP/1.1" 200 1319
+0:0:0:0:0:0:0:1 - - [26/Jan/2023:00:09:41 -0600] "GET /maven-estudiante/StudentControllerServlet?command=UPDATE&studentId=8&nombre=Erika&lastName=Pech&email=yomera%40hotmail.com HTTP/1.1" 200 3449

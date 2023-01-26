@@ -53,7 +53,7 @@
 																		
 					<tr>
 						<td> ${tempStudent.nombre} </td>
-						<td> ${tempStudent.lastName} </td>
+						<td> ${tempStudent.apellido} </td>
 						<td> ${tempStudent.email} </td>
 						<td> 
 							<a href="${tempLink}">Editar</a> 

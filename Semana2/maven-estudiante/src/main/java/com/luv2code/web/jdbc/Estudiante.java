@@ -4,19 +4,19 @@ public class Estudiante {
 
 	private int id;
 	private String nombre;
-	private String lastName;
+	private String apellido;
 	private String email;
 
-	public Estudiante(String nombre, String lastName, String email) {
+	public Estudiante(String nombre, String apellido, String email) {
 		this.nombre = nombre;
-		this.lastName = lastName;
+		this.apellido = apellido;
 		this.email = email;
 	}
 
-	public Estudiante(int id, String nombre, String lastName, String email) {
+	public Estudiante(int id, String nombre, String apellido, String email) {
 		this.id = id;
 		this.nombre = nombre;
-		this.lastName = lastName;
+		this.apellido = apellido;
 		this.email = email;
 	}
 
@@ -36,12 +36,12 @@ public class Estudiante {
 		this.nombre = nombre;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 
 	public String getEmail() {
@@ -54,6 +54,6 @@ public class Estudiante {
 
 	@Override
 	public String toString() {
-		return "Estudiante [id=" + id + ", Nombre=" + nombre + ", lastName=" + lastName + ", email=" + email + "]";
+		return "Estudiante [id=" + id + ", Nombre=" + nombre + ", Apellido=" + apellido + ", email=" + email + "]";
 	}	
 }

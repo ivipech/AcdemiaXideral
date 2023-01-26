@@ -34,8 +34,8 @@
 
 					<tr>
 						<td><label>Apellido:</label></td>
-						<td><input type="text" name="lastName" 
-								   value="${THE_STUDENT.lastName}" /></td>
+						<td><input type="text" name="apellido" 
+								   value="${THE_STUDENT.apellido}" /></td>
 					</tr>
 
 					<tr>

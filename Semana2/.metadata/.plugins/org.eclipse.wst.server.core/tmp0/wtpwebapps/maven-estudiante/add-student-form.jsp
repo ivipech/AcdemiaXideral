@@ -31,7 +31,7 @@
 
 					<tr>
 						<td><label>Apellido:</label></td>
-						<td><input type="text" name="lastName" /></td>
+						<td><input type="text" name="apellido" /></td>
 					</tr>
 
 					<tr>
