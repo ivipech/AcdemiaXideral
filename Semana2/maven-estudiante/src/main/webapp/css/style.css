@@ -4,11 +4,19 @@ html, body{
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 }
 
+h3 {
+	width:73%;
+	text-align:center;
+	margin-left:10%;
+	margin-right:auto;
+}
+
 table {   
 	border-collapse:collapse;
 	border-bottom:1px solid gray;
 	font-family: Tahoma,Verdana,Segoe,sans-serif;
 	width:72%;
+	margin-right: auto;  margin-left: auto;
 }
  
 th {
@@ -27,8 +35,7 @@ tr:nth-child(even) {background: #FFFFFF}
 tr:nth-child(odd) {background: #BBBBBB}	
  
 #wrapper {width: 100%; margin-top: 0px; }
-#header {width: 73%; background: #0775d3; margin-top: 0px; padding:15px 0px 15px 15px;
-margin-right: auto;  margin-left: auto;}
+#header {width: 72%; background: #0775d3; margin-top: 0px; padding:15px 0px 15px 15px; margin-right: auto;  margin-left: auto;}
 #header h2 {width: 100%; margin:auto; color: #FFFFFF;}
 #container {width: 100%; margin:auto}
 #container h3 {color: #000;}
@@ -42,6 +49,8 @@ margin-right: auto;  margin-left: auto;}
 	font-weight: bold;
 	width: 120px; 
 	padding: 5px 10px; 
+	position: relative;
+	left:250px;
 	
 	margin-bottom: 15px;
 	background: #cccccc;
