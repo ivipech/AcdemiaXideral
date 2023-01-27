@@ -1,5 +1,0 @@
-package com.agencia;
-
-public class Mazda extends Auto {
-
-}

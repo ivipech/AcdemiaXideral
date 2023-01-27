@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.metadata\.plugins\org.eclipse.jdt.core
-3969719975.index
-4052634300.index
-3818232038.index
-1418756865.index
-1865797976.index
-3165227307.index
-3712606879.index

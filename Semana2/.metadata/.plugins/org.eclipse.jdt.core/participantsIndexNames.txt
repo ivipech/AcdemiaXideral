@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\Xideral\eclipse-workspace\AcademiaXideral\Semana2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2954466984.index
-\maven-estudiante\src\main\java
