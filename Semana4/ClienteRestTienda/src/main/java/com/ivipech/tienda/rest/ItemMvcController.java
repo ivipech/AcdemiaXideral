@@ -14,21 +14,20 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.ivipech.tienda.entity.Item;
 import com.ivipech.tienda.service.ItemService;
 
+
 @Controller
 @RequestMapping("/mvc")
 public class ItemMvcController {
 
-	// need to inject our customer service
 	@Autowired
 	private ItemService itemService;
 	
 	@GetMapping("/items")
 	public String listItems(Model theModel) {
 		
-		// get customers from the service
+	
 		List<Item> theItems = itemService.findAll();
-				
-		// add the customers to the model
+		
 		theModel.addAttribute("items", theItems);
 		
 		return "list-items";
@@ -36,7 +35,7 @@ public class ItemMvcController {
 
 	@GetMapping("/showFormForAdd")
 	public String showFormForAdd(Model theModel) {
-		
+		System.out.println("Paso por show form");
 		// create model attribute to bind form data
 		Item theItem = new Item();
 		
@@ -69,7 +68,7 @@ public class ItemMvcController {
 	}
 	
 	@GetMapping("/delete")
-	public String deleteCustomer(@RequestParam("itemId") int theId) {
+	public String deleteItem(@RequestParam("itemId") int theId) {
 		
 		// delete the customer
 		itemService.deleteById(theId);
