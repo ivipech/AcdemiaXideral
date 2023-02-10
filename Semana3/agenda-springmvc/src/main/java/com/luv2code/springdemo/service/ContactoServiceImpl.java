@@ -15,7 +15,7 @@ public class ContactoServiceImpl implements ContactoService {
 
 	// need to inject customer dao
 	@Autowired
-	@Qualifier("contactoDAOImpl")
+	@Qualifier("contactoDAOImpljdbc")
 	private ContactoDAO contactoDAO;
 	
 	@Override
